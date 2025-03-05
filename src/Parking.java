@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Parking {
     public static void main(String[] args) {
 
+        System.out.println("Parking complete");
+
         Scanner sc = new Scanner(System.in);
 
         Vehicle[] vehicle = new Vehicle[5];
@@ -72,5 +74,6 @@ public class Parking {
 //                System.out.println("Vehicle Name: "+ vehicle[i].getName()+"Vehicle Model: "+ vehicle[i].getModel());
 //            }
 //        }
+
     }
 }
