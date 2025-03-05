@@ -5,6 +5,7 @@ public class Parking {
 
         System.out.println("Parking complete");
 
+
         Scanner sc = new Scanner(System.in);
 
         Vehicle[] vehicle = new Vehicle[5];
